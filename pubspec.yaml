@@ -1,6 +1,6 @@
 name: structo
 description: "A simple Dart CLI tool that helps you scaffold Flutter or Dart project structures instantly — including Riverpod-style clean architecture."
-version: 0.0.1
+version: 0.0.2
 homepage:
 
 environment:
