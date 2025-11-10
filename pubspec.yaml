@@ -10,6 +10,8 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
+  args: ^2.4.2
+  path: ^1.8.3
 
 executables:
   structo: structo
@@ -18,8 +20,6 @@ dev_dependencies:
   flutter_test:
     sdk: flutter
   flutter_lints: ^5.0.0
-  args: ^2.4.2
-  path: ^1.8.3
 # For information on the generic Dart part of this file, see the
 # following page: https://dart.dev/tools/pub/pubspec
 
