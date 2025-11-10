@@ -1,5 +1,5 @@
 name: structo
-description: "A new Flutter package project."
+description: "A simple Dart CLI tool that helps you scaffold Flutter or Dart project structures instantly — including Riverpod-style clean architecture."
 version: 0.0.1
 homepage:
 
