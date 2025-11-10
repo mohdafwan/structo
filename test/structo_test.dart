@@ -1,12 +1,13 @@
 import 'package:flutter_test/flutter_test.dart';
 
-import 'package:structo/structo.dart';
+import '../bin/structo.dart';
 
 void main() {
   test('adds one to input values', () {
-    final calculator = Calculator();
-    expect(calculator.addOne(2), 3);
-    expect(calculator.addOne(-7), -6);
-    expect(calculator.addOne(0), 1);
+    final _ = createStructure(
+      'test_dir',
+      ['folder1', 'folder2/file.txt'],
+      ['file1.txt', 'subdir/file2.txt'],
+    );
   });
 }
